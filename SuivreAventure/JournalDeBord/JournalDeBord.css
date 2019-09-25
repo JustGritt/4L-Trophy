@@ -1,0 +1,130 @@
+
+		
+body{
+		background-image: url("./img/fond_body.jpg");
+		background-size:cover;
+		}
+#cadre_journal_1{
+
+	position: relative;
+	border-style: solid;
+	border-width: 2px;
+	margin-bottom: 1%;
+	width: 70%;
+	background-color: white;
+	margin-top: 2%;
+	border-radius: 5px;
+	
+	}
+#cadre_journal_1 img{
+	width: 70%;
+	height: auto;
+}
+#cadre_journal_2{
+
+	position: relative;
+	border-style: solid;
+	border-width: 2px;
+	margin-bottom: 1%;
+	width: 70%;
+	background-color: white;
+	margin-top: 2%;
+	border-radius: 5px;
+	display: none;
+	}
+#cadre_journal_2 img{
+	width: 70%;
+	height: auto;
+}
+#cadre_journal_3{
+
+	position: relative;
+	border-style: solid;
+	border-width: 2px;
+	margin-bottom: 1%;
+	width: 70%;
+	background-color: white;
+	margin-top: 2%;
+	border-radius: 5px;
+	display: none;
+	}
+#cadre_journal_3 img{
+	width: 70%;
+	height: auto;
+}
+
+
+
+#journal_1{
+	position: relative;
+
+	height: 550px;
+	width: 800px;
+	margin-top: 4%;
+}
+
+
+
+#paragraphe_1{
+	position: relative;
+	padding-left: 10%;
+	text-align: left;
+	padding-top: 3%;
+	padding-right: 10%;
+
+}
+
+
+#paragraphe_2{
+	position: relative;
+	padding-left: 10%;
+	text-align: left;
+	padding-top: 3%;
+	padding-right: 10%;
+	padding-bottom:2%;
+}
+
+#cadre_form form {
+	position: relative;
+	width: 70%;
+	height: 200px;
+	border-style: solid;
+	background-color: white;
+	margin-bottom:5%;
+	border-width: 2px;
+	border-radius: 5px;
+	}
+#cadre_form textarea{
+	width: 70%;
+	height: 153px;
+	margin-top: 2%;
+	margin-left: 15%;
+	position: relative;
+
+}
+
+#cadre_form img{
+	width: 153px;
+	height: 153px;
+	position: relative;
+	margin-right: 81%;
+	bottom: 80%;
+}
+
+#suivant{
+	top: 55em;
+	position:relative;
+	margin-left: 35%;
+	cursor: pointer;
+}
+#precedant{
+	top: 55em;
+	position:relative;
+	margin-right: 35%;
+	cursor: pointer;
+}
+	
+
+h2{
+	font-size: 30px;
+}

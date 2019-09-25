@@ -1,0 +1,26 @@
+#formulaire{
+	display:flex;
+	margin-top:30vh;
+	align-items:center;
+	justify-content:center;
+	
+}
+	
+	
+form {
+	width:600px;
+	background-color:red;
+	}
+	
+label{
+	display: inline-block;
+	width:300px;
+
+	}
+input{
+	display:inline-block;
+	}
+
+.formulaire p{
+	line-height:1.8em;
+	}

@@ -1,0 +1,52 @@
+body{
+		background-image: url("../general/img/fond.jpg");
+		background-size:cover;
+		}
+
+
+
+#new{
+	text-align:center;
+	text-decoration:none;
+	background-color:#cc3636;
+	color:white;
+	border-radius: 5px;
+	margin:3% auto 5% auto;
+	width: 25%;
+	line-height:200%;
+	display:block;
+	font-size:2.5em;
+}
+
+#new:hover
+{
+	cursor:pointer;
+	transform: scale(1.10);
+}
+.conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+	margin:5% auto 0 auto;
+    padding: 0;
+}
+
+.element img
+{
+	padding: 0;
+	margin: 0;	
+	border-radius: 8px;
+	border : 3px solid #cc3636;
+}
+
+.element:hover
+{
+	transform: scale (1.10,1.10);   
+}
+.element:hover img
+{
+	border : 3px solid #cc3636;
+	transform: scale(1.10);   
+}

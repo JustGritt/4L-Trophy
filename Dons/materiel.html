@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./dons.css" type="text/css" />
+		<link rel="stylesheet" href="../general/general.css" type="text/css" />
+		<link rel="shortcut icon" href="../general/img/LogoTopSite.ico">
+		<title>Dons matériels</title>
+	</head>
+
+	<body>
+		
+    <!-- Barre de navigation du top -->
+    <!-- menu du top -->
+
+    <nav class="nav">
+        <ul class="menu">
+
+            <!-- Onglet suivre Aventure-->
+            <li class="parent">
+                <span class="categorie">Suivre l'aventure</span>
+                <!-- sous menu-->
+                <ul class="sous-menu">
+                    <li><a href="../SuivreAventure/JournaldeBord/JournalDeBord.html" title="Journal de Bord">Journal de Bord</a></li>
+                    <li><a href="../SuivreAventure/Carte/Carte.html" title="Carte">Carte</a></li>
+                    <li><a href="../SuivreAventure/Projets/Projets.html" title="Projets">Projets</a></li>
+                </ul>
+                <!-- /sous menu-->
+            </li>
+            <!-- /Onglet suivre Aventure-->
+
+            <!-- Onglet Boutique -->
+            <li>
+                <a class="direct" href="../Boutique/boutique.html" title="Boutique">Boutique</a>
+            </li>
+            <!-- /Onglet Boutique -->
+
+            <!-- Accueil -->
+            <li>
+                <a href="../Accueil/Accueil.html" id="logolien">
+                    <img src="../general/img/logo_site.png" alt="Accueil" />
+                </a>
+            </li>
+            <!-- /Accueil -->
+
+            <!-- Onglet dons -->
+            <li class="parent">
+                <span class="categorie"> Faites un don </span>
+                <!-- sous menu-->
+                <ul class="sous-menu">
+                    <li><a href="../Dons/Argent.html" title="Don d'argent">Financier</a></li>
+                    <li> <a href="../Dons/Materiel.html" title="Don de materiel"> Materiel</a></li>
+                </ul>
+                <!-- /sous menu-->
+            </li>
+            <!-- /Onglet dons -->
+
+            <!-- Onglets Sponsors -->
+            <li class="parent">
+                <span class="categorie">Sponsoring</span>
+                <!-- sous menu-->
+                <ul class="sous-menu">
+                    <li><a href="../Sponsoring/Sponsors.html" title="Nos Sponsors">Nos Sponsors</a></li>
+                    <li> <a href="../Sponsoring/NewSponsors.html" title="Rejoignez nous"> A vous !</a></li>
+                </ul>
+                <!-- /sous menu-->
+            </li>
+            <!-- /Onglets Sponsors -->
+
+        </ul>
+    </nav>
+    <!-- /Menu -->
+	
+	
+	<h1> Donnez votre vieux matériel ! </h1>
+	
+	
+	
+		
+		<!-- FORMULAIRE -->
+			<div id="formulaire">
+				<div id="formutete">
+					<h2>Participation matérielle</h2>
+				</div>		
+				<form>
+		
+					<p>
+						<label for="prenom">Prénom:<sup>*</sup></label>  
+							<input type="text" name="Prenom" id="prenom" placeholder="Jean" autofocus required /><br/>
+			
+						<label for="nom" >Nom: <sup>*</sup></label> 
+							<input type="text" name="Nom" id="nom"placeholder="Dupont" required /><br/>
+		
+						<label for="type">Type de don:<sup>*</sup></label>
+							<select name="type" id="type" />
+								<option value="informatique"> Informatique</option>
+								<option value="Paypal"> Scolaire </option> 
+							</select><br/>
+			
+						<label for="desc">descriptif du don:</label>
+							<input type="text" name="desc" id="desc" placeholder="Ordinateur,livres..."> <br/>
+						<input type="submit" value="Valider" onclick="alert('Merci pour votre don !')" id="submit">
+					</p>
+				</form>
+			</div>
+		<div class="conteneur"><img class="compteur" alt="Compteur de Fond" src=".\img\compteur.png" />
+	<h2>Compteur de dons materiel </h2>
+	</div>
+	
+	</body>
+</html>
+

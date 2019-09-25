@@ -1,0 +1,240 @@
+body{
+		background-image: url("../../general/img/fond.jpg");
+		background-size:cover;
+		}
+/* Presentation des titres */
+		
+
+
+.gauche{
+	background-color:#cc3636;
+	line-height:2em;
+	padding-left:2%;
+	text-align:left;
+	width:50%;
+	color:white;
+	border: 4px dashed rgba(255,255,255,0.8);
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	margin-bottom:0;
+	display:inline-block;
+	margin-left:3%
+
+
+	
+}
+
+.droite{
+	background-color:#cc3636;
+	line-height:2em;
+	padding-left:2%;
+	text-align:left;
+	width:50%;
+	color:white;
+	border: 4px dashed rgba(255,255,255,0.8);
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	margin-bottom:0;
+	float:right;
+	display:inline-block;
+	margin-right: 3%;
+}
+
+/* Presentation du Calendrier */
+
+#conteneur{
+	width:69%;
+	height:90%;
+	margin:0 auto 7% auto;}
+/* Size et placement du tableau */
+table{
+	width:69%;
+	height:90%;
+	border-collapse:collapse;
+	padding:0px;
+	position:absolute
+	}
+	
+
+
+/* Configuration des cellules d'entête */
+.ligneMois {
+	height:4.4%;
+	font-size:1.2em;
+	}
+	
+th{
+	height:4.4%;	 
+	width:14.3%;
+	background-color:#DD3636;
+	border:4px inset #CCCCCC;
+	padding:0px;
+	margin:0px;
+	}	
+
+/* Configuration des cellules du tableau */	
+td {
+	width:14.3%;
+	height:15.2%;
+	background-color:white;
+	border:4px inset #CCCCCC;
+	padding:0px;
+	overflow:hidden;
+	}
+
+/* Affichage des jours vides */
+.vide{
+	background-color:#CCCCCC;
+	}
+
+/* Affichage du numéro de la date */
+.date{
+	height:100%;
+	position:relative;
+	margin:0px;
+	vertical-align:top;
+	}
+
+/* image des events à venir */
+.gateau{
+	background-image:url("./img/EventGateaux.png");
+	background-size:100% 100%;
+	}
+
+.loto{
+	background-image:url("./img/loto.png");
+	background-size: 100% 100%;
+	}
+	
+.edd{
+	background-image:url("./img/logo-edd.png");
+	background-size:100% 100%;
+}
+.vroumvroum{
+	background-image:url("./img/vroumvroum.png");
+	background-size:100% 100%;
+}
+	
+.clown{
+	background-image:url("./img/clown.png");
+	background-size:100% 100%;
+}
+.depart{
+	background-image:url("./img/eventdepart.png");
+	background-size:100% 100%;
+}
+	
+/* placement du lien dans la cellule */	
+td a {
+	display:block;
+	height:100%;
+	width:100%;
+	text-decoration:none;
+	color:black;
+	}
+
+	
+/* Choix du mois à afficher */
+
+/* Positionnement du menu de choix */
+#mois{
+	margin-top:2%;
+	margin-bottom:0.2%;
+	display:flex;
+	justify-content:center;
+	width:29.5%;
+	border: 4px inset white;
+	border-radius:30px;
+	overflow:hidden	
+	}
+
+/* Affichage des onglets */
+#mois a{
+	background-color:#CC3636;
+	color:white;
+	text-decoration:none;
+	font-size:1.5em;
+	width:33.3%;
+	}
+
+/* Bordures dans le menu de choix */
+#lienjanvier{
+	border-right: 4px groove white;
+	border-left: 4px groove white;
+	}
+
+/* effet bouton */
+#mois a:hover{
+	background-color:#993636;
+	}
+	
+/* Elements cachés lorsqu'ils sont pas ciblés  */
+
+#janvier,
+#fevrier {
+	display:none;
+	}
+
+/* Affichage du calendrier correspondant au ciblage */
+#Decembre:target,
+#janvier:target,
+#fevrier:target {
+	display:table;
+	}
+
+
+	
+/* Paragraphes de présentation event */
+
+.evenements {
+	background-color:white;
+	width:50%;
+	border-bottom-right-radius:50px;
+	border-bottom-left-radius:50px;
+	margin-top:0;
+	line-height:2em;
+	text-align:justify;
+	border-right:4px dashed rgba(204,54,54,0.8);
+	border-bottom:4px dashed rgba(204,54,54,0.8);
+	border-left:4px dashed rgba(204,54,54,0.8);
+	padding-left:1%;
+	padding-right:1%;
+	display:inline-block;
+	margin-bottom:7%;
+	padding-top:10px;
+	min-height:15%;
+	padding-bottom:10px;
+	margin-left: 3%;
+
+	}
+.evenements2 {
+	background-color:white;
+	width:50%;
+	border-bottom-right-radius:50px;
+	border-bottom-left-radius:50px;
+	margin-top:0;
+	line-height:2em;
+	text-align:justify;
+	border-left:4px dashed rgba(204,54,54,0.8);
+	border-right:4px dashed rgba(204,54,54,0.8);
+	border-bottom:4px dashed rgba(204,54,54,0.8);
+	padding-left:1%;
+	padding-right:1%;
+	float:right;
+	display:inline-block;
+	margin-bottom:7%;
+	padding-top:10px;
+	min-height:15%;
+	padding-bottom:10px;
+	margin-right:3%;
+	}
+	
+.evenements a {
+	text-decoration:none
+}
+
+.evenements2 a {
+	text-decoration:none;
+	color:blue;
+}
+	

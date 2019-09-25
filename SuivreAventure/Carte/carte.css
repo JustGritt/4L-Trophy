@@ -1,0 +1,23 @@
+body{
+		background-image: url("../../general/img/fond.jpg");
+		background-size:cover;
+		}
+
+h1{
+		background-color:#FFFFFF;
+		color:#555555;
+		font-size:3em;
+		border:5px dotted white;
+		opacity: 0.80;
+		border-radius: 5px;
+		padding:5px;
+		margin:50px 10px 20px 10px;
+		width: 70%;
+		}
+
+#map iframe{
+	position: relative;
+	margin-top: 3%;
+	
+
+}

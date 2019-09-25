@@ -1,0 +1,155 @@
+﻿
+@font-face {
+		font-family: "Caviar Dreams";
+		src: url(./Fonts/CaviarDreams_Bold.ttf);
+		}
+html{
+height:100%;
+scroll-behavior: smooth;}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	font-family:"Caviar Dreams";
+	}
+	
+
+h1	{
+	text-align:center;
+	background-color:#FFFFFF;
+	color:#555555;
+	font-size:2.5em;
+	border:5px dotted white;
+	opacity: 0.80;
+	border-radius: 5px;
+	line-height:200%;
+	margin:3% auto 3% auto;
+	width: 70%;
+	height:9%;
+
+		
+	}
+/* Taille et couleurs menu*/
+.nav{
+	height:15%;
+	width:100%;
+    	background:#cc3636;
+	top:0px;
+	}
+
+/* centrage et affichage Menu*/	
+.nav ul {
+	height:100%;
+    margin: 0px;
+   	padding: 0px;
+    list-style:none;
+	white-space:nowrap;
+	}
+
+/*Affichage des liens écrits */
+.categorie,
+.nav a {
+    	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.5em;
+	font-weight: bold;
+	}
+.sous-menu a{
+	font-size:1.2em;
+}
+	
+
+/* Affichage des liens direct au survol */
+.direct:hover {
+	border-bottom: 4px solid white;
+	
+	
+	}
+#logolien:hover{
+	transform:scale(1.05)
+}
+
+/* Positionnement des élements du menu */
+.nav .menu {
+    	display: flex; 
+    	flex-direction : row; 
+    	justify-content: space-around; 
+	align-items:center;
+	align-content:center;
+	flex-wrap: nowrap;
+	}
+
+
+
+/* Affichage au survol d'un lien de sous menu */
+
+.parent:hover  .sous-menu { 
+    display: flex;
+	}
+  
+.parent:hover li{
+	background-color:#cc3636;
+
+	}
+.parent:hover .categorie {
+	border-bottom:4px solid white;
+	background-color:#cc3636;
+	}
+.parent:hover li:hover{
+	background-color:#cc3636;
+	font-size:1.05em;
+
+	}
+
+/*Positionnement et réglages sous menu */
+
+.parent{ 
+	position: relative;
+	} 
+.categorie{ 
+	position: relative;
+	padding-bottom:1%;
+	}  
+.sous-menu { 
+    	display: none;
+    	flex-direction: column ;
+    	position: absolute;
+	width:100%;
+	text-align:center;
+	text-decoration: none;
+	padding:0;
+
+	}
+
+/* Style du footer */
+
+footer {
+    margin-top: 10%;
+    position: relative;
+    height: 15%;
+	width:100%;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    border-color: #555555;
+    background-color: #cc3636;
+    opacity: 0.90;
+    display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+footer img {
+    position: relative;
+    cursor: pointer;
+}
+
+footer img:hover {
+    transform: scale(1.20, 1.20);
+}
+
+
+

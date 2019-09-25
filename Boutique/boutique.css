@@ -1,0 +1,153 @@
+
+body{
+		background-image: url("../general/img/fond.jpg");
+		background-size:cover;
+		}
+		
+
+
+.espace_vente{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		}
+
+
+.produit{
+		background-color:#FFFFFF;
+		border: 1px solid #333333;	
+		display:flex;
+		flex-flow:column wrap;
+		margin-right:20px;
+		margin-left:20px;
+		max-width:250px;
+		margin-bottom:10px
+		}
+		
+.produit p{
+		line-height:1.8em;
+		margin-bottom:0px;
+		margin-right:5px;
+		margin-left:5px;
+		flex-wrap:wrap;
+		margin-top:0px;
+		}
+		
+.produit img{
+		border-bottom: 1px dotted black;
+	
+}
+
+#prix{
+		color:#555555;
+		font-size:1.2em;
+		font-weight:bold;
+		margin-bottom:0px;
+		}
+
+#CarrouselTS,
+#CarrouselB,
+#CarrouselL,
+#CarrouselBob{
+		display:flex;
+		flex-direction:row;
+		position: relative;    
+		width: 250px;          
+		height: 250px;
+		overflow:hidden;
+		border-bottom:1px dotted black;
+		}
+		
+#ContenuTS,
+#ContenuB,
+#ContenuL,
+#ContenuBob{
+		display:flex;
+		flex-direction:row;
+		position: absolute;   
+		top: 0;               
+		left: 0;              
+		margin: 0;            
+		padding: 0;
+		width: 200%;
+		transition:1s;
+		}
+		
+#ContenuTS li,
+#ContenuB li,
+#ContenuL li,
+#ContenuBob li{
+	display: inline;
+	}
+	
+#CarrouselTS:target #ContenuTS,
+#CarrouselB:target #ContenuB,
+#CarrouselL:target #ContenuL,
+#CarrouselBob:target #ContenuBob{
+		left: -250px;
+		
+		}
+
+ .ChoixBlanc,.ChoixRouge{
+		position: relative;
+		top:85%;
+		width:20px;
+		height:20px;
+		border:3px double black;
+		margin-left: 5px;
+		}
+
+
+/* CSS PointVente */
+
+#formulaire{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+	width:60%;
+	
+}
+#formutete{
+	text-align:center;
+	background-color:#cc3636;
+	border:5px inset #cc3636;
+	width:100%;
+}
+	
+	
+form {
+	width:100%;
+	background-color:white;
+	border:5px inset #CCCCCC;
+	}
+	
+label{
+	display: inline-block;
+	width:500px;
+	margin:10px;
+	}
+
+#submit{
+	display:block;
+	width:100px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#cc3636;
+	margin-top:10px;
+	padding:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

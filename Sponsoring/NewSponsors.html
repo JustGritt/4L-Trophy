@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../boutique/boutique.css" type="text/css" />
+		<link rel="stylesheet" href="../general/general.css" type="text/css" />
+		<link rel="shortcut icon" href="../general/img/LogoTopSite.ico">
+		<title>Formulaire Sponsor</title>
+	</head>
+
+	<body>
+		
+		<!-- Barre de navigation du top -->
+	
+	<!-- menu du top -->
+	
+    <nav class="nav">
+        <ul class="menu">
+		
+			<!-- Onglet suivre Aventure-->
+            <li class="parent">
+				<span class="categorie">Suivre l'aventure</span>
+					<!-- sous menu-->
+					<ul class="sous-menu">
+						<li><a href="../SuivreAventure/JournaldeBord/JournalDeBord.html" title="Journal de Bord">Journal de Bord</a></li>
+						<li><a href="../SuivreAventure/Carte/Carte.html" title="Carte">Carte</a></li>
+						<li><a href="../SuivreAventure/Projets/Projets.html" title="Projets">Projets</a></li>
+                    </ul>
+					<!-- /sous menu-->
+			</li>
+			<!-- /Onglet suivre Aventure-->
+			
+			<!-- Onglet Boutique -->
+            <li >
+				<a class="direct" href="../boutique/Boutique.html" title="Boutique">Boutique</a>
+			</li>
+			<!-- /Onglet Boutique -->
+			
+			<!-- Accueil -->
+            <li>
+				<a href="../Accueil/Accueil.html" id="logolien">
+					<img src="../general/img/logo_site.png" alt="Accueil"/>
+				</a>
+			</li>
+			<!-- /Accueil -->
+			
+			<!-- Onglet dons -->
+            <li class="parent">
+				<span class="categorie"> Faites un don </span>
+					<!-- sous menu-->
+					<ul class="sous-menu">
+						<li><a href="../Dons/Argent.html" title="Don d'argent">Financier</a></li>
+						<li> <a href="../Dons/Materiel.html" title="Don de materiel"> Materiel</a></li>
+                    </ul>
+					<!-- /sous menu-->
+			</li>
+			<!-- /Onglet dons -->
+			
+			<!-- Onglets Sponsors -->
+			<li class="parent">
+				<span class="categorie">Sponsoring</span>
+					<!-- sous menu-->
+					<ul class="sous-menu">
+						<li><a href="../Sponsoring/Sponsors.html" title="Nos Sponsors">Nos Sponsors</a></li>
+						<li> <a href="../Sponsoring/NewSponsors.html" title="Rejoignez nous"> A vous !</a></li>
+                    </ul>
+					<!-- /sous menu-->
+			</li>
+			<!-- /Onglets Sponsors -->
+			
+        </ul>
+    </nav>
+<!-- /Menu -->
+	
+	
+
+		
+		<!-- FORMULAIRE -->
+		<h1>Sponsorisez nous !</h1>
+			<div id="formulaire">
+				<div id="formutete">
+					<p>Remplissez ce fomulaire pour que l'on vous recontacte</p>
+				</div>		
+				<form>
+		
+					<p>
+						<label for="prenom">Nom de la société:<sup>*</sup></label>  
+							<input type="text" name="Prenom" id="prenom" placeholder=" " autofocus required /><br/>
+		
+						<label for="moyen">Votre préférence pour vous recontacter ?<sup>*</sup></label>
+							<select name="Moyen" id="moyen" />
+								<option value="Carte Bleue">Téléphone</option>
+								<option value="Paypal"> Mail </option> 
+							</select><br/>
+			
+						<label for="CB">N° de téléphone :</label>
+							<input type="text" name="Carte Bleue" id="CB" placeholder="XX XX XX XX XX" /> <br/>
+		
+						<label for="PP"> Adresse Mail :</label>
+							<input type="email" name="Paypal" id ="PP" /> <br/>
+			
+						<label for="dom">Adresse Postale</label>
+							<input type="text" name="adresse" id="dom" placeholder="93 Avenue JB Clément 93430"> <br/>
+						<input type="submit" value="Valider" onclick="alert('Merci ! Nous vous recontacterons sous peu !')" id="submit">
+					</p>
+				</form>
+			</div>	
+		
+	<footer>
+        <a href="https://www.facebook.com/4l.trophy.officiel/"><img src="../general/img/facebook.png"></a>
+        <a href="https://twitter.com/4l_trophy"><img src="../general/img/twitter.png"></a>
+        <a href="https://www.instagram.com/4l_trophy/?hl=fr"><img src="../general/img/instagram.png"></a>
+        <a href="https://www.4ltrophy.com/"><img src="../general/img/logo-footer.png"></a>
+        <a href="mailto:Equipe507@4Ltrophy.com"><img src="../general/img/contacter.png"></a>
+
+	</footer>
+	</body>
+</html>
